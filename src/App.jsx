@@ -4,7 +4,6 @@ import ProblemSection from "./sections/ProblemSection";
 import AwakeningSection from "./sections/AwakeningSection";
 import MethodSection from "./sections/MethodSection";
 import VideoSection from "./sections/VideoSection";
-import ReconhecimentoSection from "./sections/ReconhecimentoSection";
 import FinalCTASection from "./sections/FinalCTASection";
 import AuthorSection from "./sections/AuthorSection";
 import FAQSection from "./sections/FAQSection";
@@ -18,7 +17,6 @@ function App() {
       <AwakeningSection />
       <MethodSection />
       <VideoSection />
-      <ReconhecimentoSection />
       <FinalCTASection />
       <AuthorSection />
       <FAQSection />

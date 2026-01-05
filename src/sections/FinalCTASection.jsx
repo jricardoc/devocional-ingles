@@ -94,9 +94,9 @@ const FinalCTASection = () => {
 
             <div className="final-cta__pricing">
               <span className="final-cta__promo-tag">🔥 Launch Promotion</span>
-              <span className="final-cta__price-original">from $39.00</span>
+              <span className="final-cta__price-original">from $99.90</span>
               <span className="final-cta__price-label">for only</span>
-              <span className="final-cta__price">$5.00</span>
+              <span className="final-cta__price">$19.90</span>
             </div>
 
             <a

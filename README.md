@@ -1,16 +1,88 @@
-# React + Vite
+# Therapeutic Devotional - Digital Book Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page for the **Therapeutic Devotional** digital book. This website showcases the product and guides visitors through a conversion funnel to purchase the book.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This landing page is designed to promote the Therapeutic Devotional, a digital book that combines faith-based teachings with practical therapeutic applications. The website features:
 
-## React Compiler
+- **Hero Section**: Eye-catching introduction with call-to-action
+- **Problem Section**: Addresses the pain points of the target audience
+- **Awakening Section**: Presents the solution and its benefits
+- **Method Section**: Explains the methodology behind the devotional
+- **Video Section**: Engaging video content
+- **Final CTA Section**: Purchase section with pricing details
+- **Author Section**: Information about the author
+- **FAQ Section**: Frequently asked questions
+- **Footer**: Contact and additional links
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React** - Frontend library
+- **Vite** - Build tool and development server
+- **CSS** - Styling with custom properties and modern CSS features
+- **ESLint** - Code linting
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+The site will be available at `http://localhost:5173`
+
+### Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```
+src/
+├── assets/         # Static assets
+├── components/     # Reusable components
+├── sections/       # Page sections
+│   ├── HeroSection.jsx
+│   ├── ProblemSection.jsx
+│   ├── AwakeningSection.jsx
+│   ├── MethodSection.jsx
+│   ├── VideoSection.jsx
+│   ├── FinalCTASection.jsx
+│   ├── AuthorSection.jsx
+│   ├── FAQSection.jsx
+│   └── Footer.jsx
+├── App.jsx         # Main App component
+├── main.jsx        # Entry point
+└── index.css       # Global styles
+```
+
+## License
+
+All rights reserved.
