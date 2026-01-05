@@ -8,19 +8,9 @@ const faqData = [
       "It is a devotional that combines biblical principles with techniques from neuroscience, CBT (Cognitive Behavioral Therapy), and psychoanalysis. Unlike traditional devotionals, it was created to help you understand the emotional patterns, triggers, and cycles that prevent you from growing spiritually and emotionally.",
   },
   {
-    question: "How do I receive the book and lessons?",
+    question: "How do I receive the digital book?",
     answer:
-      "The physical book is shipped to your address with free shipping throughout Brazil. The 10 lessons are made available immediately after purchase; you receive access to an exclusive area where you can watch whenever and as many times as you want.",
-  },
-  {
-    question: "How long does the book take to arrive?",
-    answer:
-      "The delivery time varies according to your region, usually between 5 to 15 business days. Once the order is dispatched, you will receive a tracking code to follow the delivery.",
-  },
-  {
-    question: "Do the lessons complement the book?",
-    answer:
-      "Yes! The 10 lessons were created especially to deepen each concept in the book. They bring practical examples, more detailed explanations, and guided exercises that will enhance your transformation experience.",
+      "Immediately after purchase confirmation, you will receive an email with access to download the digital book in PDF format. The access is instant and you can start reading right away on any device.",
   },
   {
     question: "Is there a guarantee?",
@@ -30,7 +20,7 @@ const faqData = [
   {
     question: "Can I pay in installments?",
     answer:
-      "Yes! You can pay in up to 12 installments on your credit card. We also accept PIX and bank slip for cash payment.",
+      "Yes! You can pay in up to 12 installments on your credit card. We also accept PayPal for convenient payment.",
   },
 ];
 

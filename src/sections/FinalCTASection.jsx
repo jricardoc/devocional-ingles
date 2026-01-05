@@ -72,7 +72,7 @@ const FinalCTASection = () => {
                 >
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
-                Immediate and Lifetime Access to Digital Book
+                Immediate and Lifetime Access
               </li>
               <li>
                 <svg
@@ -88,7 +88,7 @@ const FinalCTASection = () => {
                 >
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
-                Practical Application Journal
+                Practical Application Journal Included
               </li>
             </ul>
 
@@ -100,7 +100,7 @@ const FinalCTASection = () => {
             </div>
 
             <a
-              href="https://pay.hotmart.com/P103483642O?checkoutMode=10"
+              href="https://pay.hotmart.com/X103673386F"
               title="Buy Therapeutic Devotional on Hotmart"
               className="btn btn--primary btn--large final-cta__button animate-glow"
             >
